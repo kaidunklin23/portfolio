@@ -6,9 +6,9 @@ body{
 }
 
 :root{
-    --color-black: #000000;
+    --color-black: #c70687;
     --color-white: #ffffff;
-    --color-border: #ffffff34;
+    --color-border: #000000;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
