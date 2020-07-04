@@ -9,9 +9,9 @@ body{
     --color-black: #c70687;
     --color-white: #ffffff;
     --color-border: #000000;
-    --font-staat: 'Staatliches', cursive;
-    --font-os:  'Oswald', sans-serif;
-    --font-ram: 'Rambla', sans-serif;
+    --font-staat:'Lora', serif;
+    --font-os:  'Lora', serif;
+    --font-ram:'Lora', serif;
 }
 
 /* global classes */
@@ -120,6 +120,8 @@ body{
 }
 body{
     margin-left: 40px;
+    font-family: 'Lora', serif;
+
 }
 
 
@@ -147,7 +149,7 @@ h2{
     font-size: 90px;
     display: flex;
     justify-content: left;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(255, 255, 255);
     width: fit-content;
 }
 #resu{
@@ -165,7 +167,8 @@ h3{
     color: black;
 }
 h1{
-    text-shadow: 5px 5px black;
+    /* text-shadow: 5px 5px rgb(255, 255, 255); */
+    font-weight: 9px;
 }
 
 .navbar-brand{
@@ -197,3 +200,6 @@ a {
 .material-icons{
     font-size: 6rem;
 }
+html {
+    scroll-behavior: smooth;
+  }
