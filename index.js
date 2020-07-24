@@ -22,6 +22,6 @@ function toggle_onclick($win, $navbar, width){
     }else{
         $navbar.css({left: '0px'});
     }
-}
+} 
 
 
